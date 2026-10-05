@@ -1,0 +1,39 @@
+/* retira os estilos padrão do browser */
+body{
+  font-family: 'Fira Sans', Arial, sans-serif ;
+  margin: 0px;
+  color: #141414;
+}
+/* retira os estilos padrão do browser */
+h1, h2, h3, p{
+  margin: 0px;
+}
+/* retira os estilos padrão do browser */
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* faz com que a imagem não cresça infinitamente  */
+img{
+  max-width: 100%; 
+  height: auto;
+  display: block;
+}
+
+.subtitulo{
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  width: 4ch;
+}
+
+@media (max-width: 800px){
+  .subtitulo{
+    font-size: 3rem;
+    text-transform: capitalize;
+    word-break: keep-all;
+  }
+}
